@@ -48,6 +48,9 @@ if (variance > 10) {
 }
 ```
 
+### Strikethrough
+~~this sentence needs to be deleted.~~
+
 ### Task list
 - [x] Task 1
 - [x] Task 2
