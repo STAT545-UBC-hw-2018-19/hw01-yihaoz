@@ -1,6 +1,6 @@
 ---
 title: "hw01_iris"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
