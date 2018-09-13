@@ -1,6 +1,6 @@
 ---
 title: "hw01_iris"
-output: github_document
+output: rmarkdown::github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -53,9 +53,3 @@ ncol(iris)
 ```{r}
 nrow(iris)
 ```
-
-
-
-
-
-
