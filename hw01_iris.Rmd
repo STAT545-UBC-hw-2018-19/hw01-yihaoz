@@ -1,0 +1,61 @@
+---
+title: "hw01_iris"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown for exploration
+The R Markdown document explores the dataset "iris". hw01_iris.Rmd and hw01_iris.md are created. 
+
+```{r}
+library(datasets)
+```
+
+### Show the data
+```{r}
+print(iris)
+```
+
+### Data description of iris
+```{r}
+str(iris)
+```
+
+### List the unique Species
+```{r}
+unique(iris$Species)
+```
+
+### Summary of the data
+```{r}
+summary(iris)
+```
+
+### Summary of column Sepal.Length in iris
+```{r}
+summary(iris$lifeExp)
+```
+
+### Check missing data
+```{r}
+sum(is.na(iris))
+```
+
+### Number of columns 
+```{r}
+ncol(iris)
+```
+
+### Number of rows
+```{r}
+nrow(iris)
+```
+
+
+
+
+
+
