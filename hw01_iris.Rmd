@@ -36,7 +36,7 @@ summary(iris)
 
 ### Summary of column Sepal.Length in iris
 ```{r}
-summary(iris$lifeExp)
+summary(iris$Sepal.Length)
 ```
 
 ### Check missing data

@@ -214,11 +214,11 @@ summary(iris)
 ### Summary of column Sepal.Length in iris
 
 ``` r
-summary(iris$lifeExp)
+summary(iris$Sepal.Length)
 ```
 
-    ## Length  Class   Mode 
-    ##      0   NULL   NULL
+    ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    ##   4.300   5.100   5.800   5.843   6.400   7.900
 
 ### Check missing data
 
