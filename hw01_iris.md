@@ -8,6 +8,7 @@ hw01\_iris.md are created.
 
 ``` r
 library(datasets)
+library('ggplot2')
 ```
 
 ### Show the data
@@ -227,6 +228,16 @@ sum(is.na(iris))
 ```
 
     ## [1] 0
+
+### Visualizing the data
+
+``` r
+ggplot(iris, aes(x = Petal.Length, y = Sepal.Length, colour = Species)) + 
+  geom_point() +
+  ggtitle('Iris Species by Petal and Sepal Length')
+```
+
+![](hw01_iris_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
 
 ### Number of columns
 

@@ -12,6 +12,7 @@ The R Markdown document explores the dataset "iris". hw01_iris.Rmd and hw01_iris
 
 ```{r}
 library(datasets)
+library('ggplot2')
 ```
 
 ### Show the data
@@ -42,6 +43,13 @@ summary(iris$Sepal.Length)
 ### Check missing data
 ```{r}
 sum(is.na(iris))
+```
+
+### Visualizing the data
+```{r}
+ggplot(iris, aes(x = Petal.Length, y = Sepal.Length, colour = Species)) + 
+  geom_point() +
+  ggtitle('Iris Species by Petal and Sepal Length')
 ```
 
 ### Number of columns 
