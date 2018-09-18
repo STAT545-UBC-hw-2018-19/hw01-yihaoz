@@ -16,11 +16,14 @@ This is **Yihao Zhang** from *ECE Master of Engineering program*.
 * ~~Definitely not study~~:scream:
 
 ### Favourite food
-1. Fried Chicken! <image src=/image/friedchicken.jpg width="480">
+1. Fried Chicken! 
+<image src=/image/friedchicken.jpg width="480">
 1. Sushi
 1. Chinese food 
-   1. Szechuan Spicy :fire: <image src=/image/sichuan.jpg width="480">
-   1. Hotpot :fire: <img src=/image/hotpot.jpg width="480">
+   1. Szechuan Spicy :fire: 
+ <image src=/image/sichuan.jpg width="480">
+   1. Hotpot :fire: 
+  <img src=/image/hotpot.jpg width="480">
 
 ### Task list
 - [x] Bachelor degree
