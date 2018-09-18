@@ -5,32 +5,35 @@ This repository is for *Yihao Zhang* to submit his STAT 545A assignment 1. There
 2 R Markdown for Gapminder Exploration
 
 ## Introduction
-This is Yihao Zhang from ECE Master of Engineering program. 
-Various Git-flavored markdown features will be elaborated in the following:
+This is **Yihao Zhang** from *ECE Master of Engineering program*. 
 
-## Git-flavored markdown features:
-### 1. Bold and Italics
-In git-flavored markdown, we can make the text to be **Bold** and *Italics*.
+### Hobbies
+* Ball
+  * Basketball
+  * Pool
+* Snowboarding
+* Gaming
+* ~~Definitely not study~~:scream:
 
-### 2. Bullet points
-* Point 1
-  * Point 1-1
-  * Point 1-2
-* Point 2
-* Point 3
+### Favourite food
+1. Fried Chicken!
+1. Sushi
+1. Chinese food
+   1. Szechuan Spicy :fire:
+   1. Hotpot :fire:
 
-### 3. Ordered list
-1. Item 1
-1. Item 2
-1. Item 3
-   1. Item 3a
-   1. Item 3b
+### Task list
+- [x] Bachelor degree
+- [ ] Pass STAT 545A 
+- [ ] Master degree
 
-### Relative Links
-[Link to the image folder](/image)
-
-### Add an image
+### My Favourite Basketball Player
 ![Nick Young](/image/3de.gif)
+
+## Some additional features:
+
+### Link to the image folder
+[Link to the image folder](/image)
 
 ### Attach an url
 [Link to the course website](http://stat545.com)
@@ -39,7 +42,7 @@ In git-flavored markdown, we can make the text to be **Bold** and *Italics*.
 UBC:
 > A place of mind
 
-### Quote codes
+### To quote code
 ```
 if (variance > 10) {
   print("yes") 
@@ -48,22 +51,11 @@ if (variance > 10) {
 }
 ```
 
-### Strikethrough
-~~this sentence needs to be deleted.~~
-
-### Task list
-- [x] Task 1
-- [x] Task 2
-- [ ] Task 3
-
 ### Tables
 Table head 1 | Table head 2
 ------------ | -------------
 Table data 1 | Table data 2
 Table data 3 | Table data 4
-
-### Emoji
-:+1::fire::scream:
 
 ### More resources:
 [Github Markdown Help](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
